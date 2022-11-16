@@ -1,0 +1,1 @@
+export const urlFetch  = 'https://twitterbackend-production.up.railway.app'
