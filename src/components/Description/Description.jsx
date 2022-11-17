@@ -8,7 +8,7 @@ function Description({ userState }) {
     <Fragment>
       <Stack sx={{justifyContent: 'center',width: {xs: '80%'}, margin: {xs: 'auto !important',md: 'auto' }}} >
         {description != null ? (
-          <Typography variant="body1" sx={{margin: {xs: '20px'}, }}>{description}</Typography>
+          <Typography variant="body1" sx={{margin: {xs: '0px', sm: '20px'}, }}>{description}</Typography>
         ) : (
           <Typography variant="body1" sx={{margin: {xs: '20px'}, }}>
             Description

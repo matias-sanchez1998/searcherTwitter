@@ -12,7 +12,10 @@ function Searcher(props) {
   };
 
   const handleSubmit = () => {
-    setInputUser(valueInput);
+    if (valueInput != "") {
+      setInputUser(valueInput);
+
+    }
   };
 
   return (
@@ -41,6 +44,7 @@ function Searcher(props) {
         <IconButton
           sx={{
             left: "-45px",
+            position: {xs: 'initial', sm: 'relative'}
           }}
           size="small"
           onClick={handleSubmit}

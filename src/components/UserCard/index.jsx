@@ -38,7 +38,7 @@ function UserCard({ userState }) {
           />
         </Grid>
         <Grid item xs={9}>
-          <Stack direction="column" spacing={1} sx={{ margin: "30px" }}>
+          <Stack direction="column" spacing={1} sx={{ margin: {xs: "0px", md: "30px"}}}>
             <PrincipalInformation userState={userState} />
             <Description userState={userState} />
           </Stack>
